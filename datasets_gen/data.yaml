@@ -1,0 +1,12 @@
+# YOLOv8 dataset configuration for Lot A
+path: LotA  # Root dataset directory
+train: train/images  # Path to training images
+val: val/images  # Path to validation images
+
+# Number of classes
+nc: 2  # 2 classes: Empty, Occupied
+
+# Class names
+names:
+  0: Empty
+  1: Occupied

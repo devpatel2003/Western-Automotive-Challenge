@@ -1,0 +1,20 @@
+description: Ultralytics best model trained on datasets/LotB/data.yaml
+author: Ultralytics
+date: '2025-03-08T04:43:29.386435'
+version: 8.3.85
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Empty
+  1: Occupied
+args:
+  batch: 1
+  half: false
+  int8: false
+  nms: false

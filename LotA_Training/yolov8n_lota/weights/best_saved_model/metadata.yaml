@@ -1,0 +1,20 @@
+description: Ultralytics best model trained on datasets/LotA/data.yaml
+author: Ultralytics
+date: '2025-03-08T02:53:39.434707'
+version: 8.3.85
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Empty
+  1: Occupied
+args:
+  batch: 1
+  half: false
+  int8: false
+  nms: false

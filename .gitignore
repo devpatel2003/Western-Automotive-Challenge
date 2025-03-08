@@ -1,0 +1,21 @@
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+
+# Ignore models
+*.h5
+*.onnx
+*.pt
+*.pth
+models/
+
+# Ignore dataset
+data/
+datasets/
+train_images/
+val_images/
+
+# Ignore cache files
+*.cache
+__pycache__/
